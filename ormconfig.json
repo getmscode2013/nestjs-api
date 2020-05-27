@@ -1,0 +1,21 @@
+{
+    "type": "mssql",
+    "host": "REETPC",
+    "port": 1433,
+    "username": "sa",
+    "password": "password1",
+    "database": "test12",
+    "synchronize": true,
+    "logging":true,
+    "entities": [
+       "dist/**/entity.js"
+    ],
+    "cli": {
+       "entitiesDir": "src/entity"
+    },
+    "extra": {
+      "options": {
+         "enableArithAbort": true
+      }
+   }
+ }
