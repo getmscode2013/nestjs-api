@@ -1,11 +1,9 @@
 # nestjs-api
 
+----------------------------------
+Day 1: Connecting to Database
+----------------------------------
 
-https://www.youtube.com/watch?v=EHlhvy-fh90&list=PLBeQxJQNprbiJm55q7nTAfhMmzIC8MWxc&index=2
-
----------------------------
-1. Connecting to database
----------------------------
 
 0. Creating projects as
 npx @nestjs/cli new nest-Api
@@ -356,5 +354,6 @@ E:\nest-api\src>mkdir shared
 5. As we are going to handle http error, so creating a file http-error.filter.cs.
 E:\nest-api\src\shared>type nul >logging.interceptor.ts
  
- 
+ refrence youtube tutorials
+ https://www.youtube.com/watch?v=EHlhvy-fh90&list=PLBeQxJQNprbiJm55q7nTAfhMmzIC8MWxc&index=2
  
